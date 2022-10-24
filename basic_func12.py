@@ -5,6 +5,5 @@
 
 def main(a):
     return a
-y = main(3.1456)
-x = round(y,2)
-print(x)
+y = main(round(3.1456,2))
+print(y)
