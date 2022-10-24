@@ -5,5 +5,5 @@ from math import sqrt
 def main(a):
     return a
 
-y = main(sqrt(64))
-print(y)
+y = main(64)
+print(sqrt(y))
