@@ -6,4 +6,5 @@
 def main(a):
     s = round(a,2)
     return s
-print(main(3.14567))
+y = main(3.14567)
+print(y)
