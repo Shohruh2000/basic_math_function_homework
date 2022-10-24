@@ -4,6 +4,6 @@
 # Round the result to 2 decimal places.
 
 def main(a):
-    return a
-y = main(round(3.1456,2))
-print(y)
+    s = round(a,2)
+    return s
+print(main(3.14567))
