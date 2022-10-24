@@ -4,6 +4,5 @@
 from math import sqrt
 def main(a):
     return sqrt(a)
-
 y = main(64)
 print(y)
