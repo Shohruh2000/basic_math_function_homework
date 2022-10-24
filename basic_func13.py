@@ -3,6 +3,8 @@
 # Returns the square root of a number.
 from math import sqrt
 def main(a):
-    return sqrt(a)
+    return a
+
 y = main(64)
-print(y)
+x = sqrt(y)
+print(x)
