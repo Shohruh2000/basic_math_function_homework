@@ -4,6 +4,9 @@
 # Round the result to 2 decimal places.
 
 def main(a):
-    return round(a,2)
+    s = 1
+    s = round(a,2)
+    return s
+   
 y = main(3.14567)
 print(y)
